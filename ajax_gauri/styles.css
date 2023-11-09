@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#output {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+#demo{
+    margin: auto;
+    padding: 20px 20px 20px 20px ;
+}
+@media only screen and (max-width: 600px) {
+    #output {
+        margin: 10px;
+    }
+}
